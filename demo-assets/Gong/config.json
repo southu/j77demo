@@ -1,0 +1,11 @@
+{
+  "displayName": "Gong",
+  "logoText": "Gong",
+  "tagline": "Revenue intelligence for customer-facing teams",
+  "themeAccent": "indigo",
+  "companyUrl": "https://www.gong.io",
+  "navLinks": [
+    { "label": "About", "href": "/about" },
+    { "label": "Contact", "href": "/contact" }
+  ]
+}

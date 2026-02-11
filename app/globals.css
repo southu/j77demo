@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --accent: theme("colors.indigo.600");
+  --accent-light: theme("colors.indigo.50");
+}
+
+body {
+  @apply bg-stone-50 text-stone-900 antialiased;
+}
+
+/* Prose for markdown content */
+.prose a {
+  @apply text-indigo-600 hover:text-indigo-700 underline;
+}
+.prose img {
+  @apply rounded-lg;
+}
