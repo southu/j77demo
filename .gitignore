@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Next.js
+.next/
+out/
+
+# Build / env
+.env
+.env*.local
+*.tsbuildinfo
+
+# Optional: generated seed cache (uncomment if you don't want to commit seed.json)
+# demo-assets/*/seed.json
+
+# OS / IDE
+.DS_Store
+*.log
+.idea
+.vscode
