@@ -1,9 +1,14 @@
 ---
-metaDescription: '2026 labor market outlook for HR leaders: slower job growth, modestly higher unemployment, persistent talent scarcity—and practical steps to hire with confidence.'
+metaDescription: >-
+  2026 labor market outlook for HR leaders: slower job growth, modestly higher
+  unemployment, persistent talent scarcity—and practical steps to hire with
+  confidence.
 title: 'The 2026 Labor Market Outlook: Shifts HR Leaders Should Prepare for Now'
 slug: 2026-labor-market-outlook-shifts-hr-leaders-prepare
 date: '2026-02-11'
-description: 'Explore 2026 labor market shifts, remote work models, and AI in recruiting—plus practical hiring strategies to prepare for talent scarcity.'
+description: >-
+  Explore 2026 labor market shifts, remote work models, and AI in
+  recruiting—plus practical hiring strategies to prepare for talent scarcity.
 tags: []
 ---
 

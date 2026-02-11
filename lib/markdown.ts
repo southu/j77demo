@@ -2,14 +2,16 @@ import { unified } from "unified";
 import remarkParse from "remark-parse";
 import remarkRehype from "remark-rehype";
 import rehypeStringify from "rehype-stringify";
+import { transformSourceLinks } from "./source-links";
 
-/** Render markdown to HTML string. */
+/** Render markdown to HTML string. Also cleans up raw source citations. */
 export async function markdownToHtml(md: string): Promise<string> {
+  const cleaned = transformSourceLinks(md);
   const result = await unified()
     .use(remarkParse)
     .use(remarkRehype)
     .use(rehypeStringify)
-    .process(md);
+    .process(cleaned);
   return String(result.value);
 }
 

@@ -18,7 +18,7 @@ In large insurance carriers, distribution productivity rarely collapses all at o
 
 This is the “hidden tax” on insurance distribution: lost time and avoidable risk embedded in everyday conversations—the place where trust is earned (or lost), suitability is clarified, and next steps are agreed.
 
-BCG frames near-term AI value in insurance as augmentation—helping existing distribution organizations perform better—rather than wholesale replacement of traditional channels. That practical lens matters in insurance, where the work still happens across captive agents, wholesalers, independent brokers, and service teams. (Source: https://www.bcg.com/publications/2026/competing-for-the-ai-empowered-insurance-customer)
+BCG frames near-term AI value in insurance as augmentation—helping existing distribution organizations perform better—rather than wholesale replacement of traditional channels. That practical lens matters in insurance, where the work still happens across captive agents, wholesalers, independent brokers, and service teams. ([BCG](https://www.bcg.com/publications/2026/competing-for-the-ai-empowered-insurance-customer))
 
 ## Key takeaways (for insurance CMOs and distribution leaders)
 
@@ -102,7 +102,7 @@ Most carriers have national positioning, product narratives, and compliance-revi
 
 The impact is more than brand inconsistency. It often becomes performance inconsistency—because outcomes hinge on how objections, expectations, and suitability are handled.
 
-Accenture’s 2026 insurance outlook highlights how changing customer expectations and technology shifts are reshaping how customers evaluate and purchase coverage. In that environment, inconsistent field messaging can become a distribution risk, not just a marketing issue. (Source: https://insuranceblog.accenture.com/5-predictions-for-the-insurance-industry-in-2026)
+Accenture’s 2026 insurance outlook highlights how changing customer expectations and technology shifts are reshaping how customers evaluate and purchase coverage. In that environment, inconsistent field messaging can become a distribution risk, not just a marketing issue. ([Accenture](https://insuranceblog.accenture.com/5-predictions-for-the-insurance-industry-in-2026))
 
 ### Insurance-specific example: suitability-adjacent wording that drifts
 
@@ -139,7 +139,7 @@ Independent brokers and general agents shape shortlists, interpret underwriting 
 
 Those signals usually live inside conversations: broker calls, renewal negotiations, underwriting discussions, and client meetings.
 
-Deloitte’s insurance outlook discusses macro pressures on insurers, including efficiency and distribution strategy challenges. For many carriers, these pressures raise the stakes on understanding broker sentiment with more than lagging metrics. (Source: https://www.deloitte.com/us/en/insights/industry/financial-services/financial-services-industry-outlooks/insurance-industry-outlook.html)
+Deloitte’s insurance outlook discusses macro pressures on insurers, including efficiency and distribution strategy challenges. For many carriers, these pressures raise the stakes on understanding broker sentiment with more than lagging metrics. ([Deloitte](https://www.deloitte.com/us/en/insights/industry/financial-services/financial-services-industry-outlooks/insurance-industry-outlook.html))
 
 ### What to do
 
@@ -158,7 +158,7 @@ Regulated carriers need speed *and* defensibility. Many attempt to reconcile tha
 - **Inconsistency**: reviewer interpretation varies
 - **Opportunity cost**: experts spend time on detection vs. prevention
 
-McKinsey has emphasized that realizing sustainable AI value requires strong fundamentals, including governance and trust—particularly relevant when applying AI to customer interactions in financial services. (Source: https://www.mckinsey.com/industries/financial-services/our-insights/the-future-of-ai-in-the-insurance-industry)
+McKinsey has emphasized that realizing sustainable AI value requires strong fundamentals, including governance and trust—particularly relevant when applying AI to customer interactions in financial services. ([McKinsey](https://www.mckinsey.com/industries/financial-services/our-insights/the-future-of-ai-in-the-insurance-industry))
 
 ### A safer way to talk about “risk signals”
 

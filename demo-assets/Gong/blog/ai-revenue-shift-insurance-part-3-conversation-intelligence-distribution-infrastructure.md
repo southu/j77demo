@@ -20,7 +20,7 @@ Insurance distribution rarely fails because the organization lacks content. More
 
 That gap is why **conversation intelligence software** is increasingly being evaluated as **revenue intelligence for insurers**: it helps teams observe and improve what happens inside real customer interactions across **insurance distribution**—not just what gets logged in CRM.
 
-In a market where AI investment is accelerating—projected to grow from **$8.63B in 2025 to $59.5B by 2033** (27.32% CAGR)—many carriers will likely differentiate less by “having AI” and more by operationalizing it with controls, integrations, and measurable outcomes. (Roots.ai: *10 Insurance AI Predictions for 2026: Forecasting the Shift From Promise to Performance* — https://www.roots.ai/blog/10-insurance-ai-predictions-2026-forecasting-shift-from-promise-performance)
+In a market where AI investment is accelerating—projected to grow from **$8.63B in 2025 to $59.5B by 2033** (27.32% CAGR)—many carriers will likely differentiate less by “having AI” and more by operationalizing it with controls, integrations, and measurable outcomes. (Roots.ai: *10 Insurance AI Predictions for 2026: Forecasting the Shift From Promise to Performance* — [Roots Automation](https://www.roots.ai/blog/10-insurance-ai-predictions-2026-forecasting-shift-from-promise-performance))
 
 This is where conversation intelligence becomes infrastructure: a system for capturing, analyzing, coaching, and supervising distribution conversations—so messaging, compliance posture, and revenue execution improve together.
 
@@ -85,7 +85,7 @@ Enablement answers, “Did we publish the content?”
 
 Conversation intelligence helps answer, “In captured interactions, how did producers actually explain it, what worked, and where did risk or confusion show up?”
 
-That distinction becomes more important as AI moves from **augmented** to more **assisted** workflows in distribution—an evolution broadly discussed in industry outlooks that emphasize safe scaling, controls, and measurable performance. (BCG: *Competing for the AI-Empowered Insurance Customer* — https://www.bcg.com/publications/2026/competing-for-the-ai-empowered-insurance-customer; Accenture: *5 predictions for the insurance industry in 2026* — https://insuranceblog.accenture.com/5-insurance-predictions-2026?amp; Deloitte Insights: *2026 global insurance outlook* — https://www.deloitte.com/us/en/insights/industry/financial-services/financial-services-industry-outlooks/insurance-industry-outlook.html)
+That distinction becomes more important as AI moves from **augmented** to more **assisted** workflows in distribution—an evolution broadly discussed in industry outlooks that emphasize safe scaling, controls, and measurable performance. (BCG: *Competing for the AI-Empowered Insurance Customer* — [BCG](https://www.bcg.com/publications/2026/competing-for-the-ai-empowered-insurance-customer;) Accenture: *5 predictions for the insurance industry in 2026* — [Accenture](https://insuranceblog.accenture.com/5-insurance-predictions-2026?amp;) Deloitte Insights: *2026 global insurance outlook* — [Deloitte](https://www.deloitte.com/us/en/insights/industry/financial-services/financial-services-industry-outlooks/insurance-industry-outlook.html))
 
 ---
 
@@ -358,8 +358,8 @@ Explore Gong conversation intelligence workflows for distribution coaching and s
 
 ## Sources
 
-- BCG: *Competing for the AI-Empowered Insurance Customer* (2026) — https://www.bcg.com/publications/2026/competing-for-the-ai-empowered-insurance-customer
-- Heffernan Network: *How AI Is Reshaping Insurance Distribution: How Agencies Can Prepare in 2026* — https://www.heffnetwork.com/how-ai-is-reshaping-insurance-distribution-how-agencies-can-prepare-in-2026/
-- Accenture: *5 predictions for the insurance industry in 2026* — https://insuranceblog.accenture.com/5-insurance-predictions-2026?amp
-- Deloitte Insights: *2026 global insurance outlook* — https://www.deloitte.com/us/en/insights/industry/financial-services/financial-services-industry-outlooks/insurance-industry-outlook.html
-- Roots.ai: *10 Insurance AI Predictions for 2026: Forecasting the Shift From Promise to Performance* — https://www.roots.ai/blog/10-insurance-ai-predictions-2026-forecasting-shift-from-promise-performance
+- BCG: *Competing for the AI-Empowered Insurance Customer* (2026) — [BCG](https://www.bcg.com/publications/2026/competing-for-the-ai-empowered-insurance-customer)
+- Heffernan Network: *How AI Is Reshaping Insurance Distribution: How Agencies Can Prepare in 2026* — [Heffnetwork](https://www.heffnetwork.com/how-ai-is-reshaping-insurance-distribution-how-agencies-can-prepare-in-2026/)
+- Accenture: *5 predictions for the insurance industry in 2026* — [Accenture](https://insuranceblog.accenture.com/5-insurance-predictions-2026?amp)
+- Deloitte Insights: *2026 global insurance outlook* — [Deloitte](https://www.deloitte.com/us/en/insights/industry/financial-services/financial-services-industry-outlooks/insurance-industry-outlook.html)
+- Roots.ai: *10 Insurance AI Predictions for 2026: Forecasting the Shift From Promise to Performance* — [Roots Automation](https://www.roots.ai/blog/10-insurance-ai-predictions-2026-forecasting-shift-from-promise-performance)

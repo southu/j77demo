@@ -1,8 +1,12 @@
 ---
-title: How to Prevent Costly Hiring Mistakes in 2026 (and Build a Recruiting Process That Works)
+title: >-
+  How to Prevent Costly Hiring Mistakes in 2026 (and Build a Recruiting Process
+  That Works)
 slug: prevent-costly-hiring-mistakes-2026
 date: '2026-02-11'
-description: 'Learn the hidden costs of mis-hires and practical ways to realign workflows, use AI in recruiting wisely, and improve hiring outcomes in 2026.'
+description: >-
+  Learn the hidden costs of mis-hires and practical ways to realign workflows,
+  use AI in recruiting wisely, and improve hiring outcomes in 2026.
 tags: []
 ---
 # How to Avoid Bad Hires in 2026: A Structured Hiring Process + Interview Scorecards

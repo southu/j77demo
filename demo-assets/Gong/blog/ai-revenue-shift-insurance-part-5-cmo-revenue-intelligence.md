@@ -44,7 +44,7 @@ Historically, organizations answered these questions with proxies: CRM notes, la
 
 AI creates a new option: **observe distribution reality directly** through the primary system where revenue is created and risk is introduced—conversations.
 
-BCG describes AI in distribution progressing in waves—**augmented, assisted, autonomous**—with human channels still dominant for the majority of policies today. That matters because, in the near term, performance gains often come from improving how humans sell, explain, and document complex coverage—not from bypassing them. The enterprise advantage tends to go to carriers that can improve those interactions safely and repeatably at scale. (Source: https://www.bcg.com/publications/2026/competing-for-the-ai-empowered-insurance-customer)
+BCG describes AI in distribution progressing in waves—**augmented, assisted, autonomous**—with human channels still dominant for the majority of policies today. That matters because, in the near term, performance gains often come from improving how humans sell, explain, and document complex coverage—not from bypassing them. The enterprise advantage tends to go to carriers that can improve those interactions safely and repeatably at scale. ([BCG](https://www.bcg.com/publications/2026/competing-for-the-ai-empowered-insurance-customer))
 
 The strategic unlock is that **the CMO can lead the enterprise around a single, governed “voice of the market”**—grounded in what customers and brokers actually ask, resist, misunderstand, and require to move forward.
 
@@ -87,7 +87,7 @@ That’s why conversation intelligence should be treated as **infrastructure**, 
 
 The point isn’t to “record calls.” The point is to transform unstructured field activity into governed, auditable insight—so leadership can see patterns across thousands of interactions.
 
-This becomes more urgent as AI spend in insurance accelerates and carriers shift from exploring AI to executing AI with measurable outcomes. Multiple industry forecasts point to significant growth in AI investment in 2026, alongside the rise of cross-functional governance models like AI centers of excellence. (Sources: https://www.roots.ai/blog/10-insurance-ai-predictions-2026-forecasting-shift-from-promise-performance, https://www.patracorp.com/resources/press-releases/patras-2026-ai-and-insurtech-tr-press-release/)
+This becomes more urgent as AI spend in insurance accelerates and carriers shift from exploring AI to executing AI with measurable outcomes. Multiple industry forecasts point to significant growth in AI investment in 2026, alongside the rise of cross-functional governance models like AI centers of excellence. (Sources: [Roots Automation](https://www.roots.ai/blog/10-insurance-ai-predictions-2026-forecasting-shift-from-promise-performance,) [Patracorp](https://www.patracorp.com/resources/press-releases/patras-2026-ai-and-insurtech-tr-press-release/))
 
 If you’re going to industrialize AI safely, you need a reliable, governed signal of what’s happening in-market.
 
@@ -139,7 +139,7 @@ Revenue intelligence can help unify the story by turning interactions into struc
 - Which product features trigger confusion late in cycle?
 - Which disclosures create friction, and how do top performers handle them?
 
-Deloitte notes ongoing distribution shifts and the growing role of AI-driven suggestions and dynamic policy review. Those capabilities are most defensible when the enterprise has high-quality signals and governance—especially when policies are complex and regulated. (Source: https://www.deloitte.com/us/en/insights/industry/financial-services/financial-services-industry-outlooks/insurance-industry-outlook.html)
+Deloitte notes ongoing distribution shifts and the growing role of AI-driven suggestions and dynamic policy review. Those capabilities are most defensible when the enterprise has high-quality signals and governance—especially when policies are complex and regulated. ([Deloitte](https://www.deloitte.com/us/en/insights/industry/financial-services/financial-services-industry-outlooks/insurance-industry-outlook.html))
 
 ---
 
@@ -149,7 +149,7 @@ Most insurance leaders now align on AI as strategic. The harder part is sequenci
 
 A future-ready roadmap usually shouldn’t start with “autonomy.” It starts with **visibility + governance**, then scales capability wave by wave.
 
-BCG’s framing—augmented, assisted, autonomous—is useful here because it maps to how regulated carriers can adopt AI while protecting trust. (Source: https://www.bcg.com/publications/2026/competing-for-the-ai-empowered-insurance-customer)
+BCG’s framing—augmented, assisted, autonomous—is useful here because it maps to how regulated carriers can adopt AI while protecting trust. ([BCG](https://www.bcg.com/publications/2026/competing-for-the-ai-empowered-insurance-customer))
 
 ### Wave 1: Augmented (make the field better)
 
@@ -166,7 +166,7 @@ BCG’s framing—augmented, assisted, autonomous—is useful here because it ma
 
 ### Wave 3: Autonomous (prepare for AI-mediated buying)
 
-Some industry forecasts anticipate a shift toward agentic commerce where AI mediates more complex purchases, increasing the need for machine-readable products and underwriting logic. (Source: https://insuranceblog.accenture.com/5-insurance-predictions-2026?amp)
+Some industry forecasts anticipate a shift toward agentic commerce where AI mediates more complex purchases, increasing the need for machine-readable products and underwriting logic. ([Accenture](https://insuranceblog.accenture.com/5-insurance-predictions-2026?amp))
 
 Even if autonomy arrives unevenly, the implication is consistent: carriers will need **a governed interaction layer** that can stand up to auditability expectations.
 
@@ -216,7 +216,7 @@ A revenue intelligence approach treats compliance as part of performance:
 - Better documentation can reduce audit risk
 - Better handoffs can reduce errors that escalate into complaints
 
-As AI spend increases and carriers move toward execution, leadership buy-in and governance become differentiators. (Source: https://www.roots.ai/blog/10-insurance-ai-predictions-2026-forecasting-shift-from-promise-performance)
+As AI spend increases and carriers move toward execution, leadership buy-in and governance become differentiators. ([Roots Automation](https://www.roots.ai/blog/10-insurance-ai-predictions-2026-forecasting-shift-from-promise-performance))
 
 ### 4) It clarifies what marketing should actually do next
 
@@ -250,7 +250,7 @@ That creates a new executive mandate:
 
 In other words: the CMO becomes the executive who can translate “AI” into a distribution system that performs—and can evidence why.
 
-Industry forecasts underscore both the rapid growth of AI in insurance and the shift toward measurable outcomes in 2026 and beyond. The winners may not be the carriers with the most pilots. They’re more likely to be the carriers that build the safest, most scalable learning system around customer and broker interactions. (Sources: https://www.heffnetwork.com/how-ai-is-reshaping-insurance-distribution-how-agencies-can-prepare-in-2026/, https://www.patracorp.com/resources/press-releases/patras-2026-ai-and-insurtech-tr-press-release/)
+Industry forecasts underscore both the rapid growth of AI in insurance and the shift toward measurable outcomes in 2026 and beyond. The winners may not be the carriers with the most pilots. They’re more likely to be the carriers that build the safest, most scalable learning system around customer and broker interactions. (Sources: [Heffnetwork](https://www.heffnetwork.com/how-ai-is-reshaping-insurance-distribution-how-agencies-can-prepare-in-2026/,) [Patracorp](https://www.patracorp.com/resources/press-releases/patras-2026-ai-and-insurtech-tr-press-release/))
 
 **Shared CTA:** Explore how AI can transform your insurance distribution strategy today.
 

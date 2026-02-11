@@ -10,6 +10,7 @@ import { createReadStream } from "fs";
 import { pipeline } from "stream";
 import { promisify } from "util";
 import matter from "gray-matter";
+import { transformSourceLinks } from "../lib/source-links";
 
 const streamPipeline = promisify(pipeline);
 const DEMO_ASSETS = path.join(process.cwd(), "demo-assets");
@@ -38,7 +39,9 @@ function normalizeFrontmatter(data: Record<string, unknown>, slug: string, body:
   if (data.author) out.author = data.author;
   if (data.canonicalTopic) out.canonicalTopic = data.canonicalTopic;
   if (data.related) out.related = data.related;
-  return matter.stringify(body, out);
+  // Transform raw source citations into proper markdown hyperlinks
+  const cleanedBody = transformSourceLinks(body);
+  return matter.stringify(cleanedBody, out);
 }
 
 async function unzipToDir(zipPath: string, outDir: string): Promise<void> {

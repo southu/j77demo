@@ -1,11 +1,17 @@
 ---
 meta:
   title: 'Beyond the Resume: What Hiring Managers Really Evaluate in 2026'
-  description: 'Beyond the resume, hiring managers in 2026 increasingly use skills-based hiring: work samples, structured interviews, and evidence-driven scorecards. Learn what’s changing, common pitfalls, and how candidates and employers can adapt.'
+  description: >-
+    Beyond the resume, hiring managers in 2026 increasingly use skills-based
+    hiring: work samples, structured interviews, and evidence-driven scorecards.
+    Learn what’s changing, common pitfalls, and how candidates and employers can
+    adapt.
 title: 'Beyond the Resume: What Hiring Managers Really Evaluate in 2026'
 slug: beyond-the-resume-what-hiring-managers-really-evaluate-2026
 date: '2026-02-11'
-description: 'Learn what hiring managers prioritize beyond resumes in 2026—skills-first evaluation, structured interviews, soft skills, and AI in recruiting.'
+description: >-
+  Learn what hiring managers prioritize beyond resumes in 2026—skills-first
+  evaluation, structured interviews, soft skills, and AI in recruiting.
 tags: []
 ---
 

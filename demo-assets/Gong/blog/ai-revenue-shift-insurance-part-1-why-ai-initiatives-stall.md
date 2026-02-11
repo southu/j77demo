@@ -122,7 +122,7 @@ This is where the idea of **conversation intelligence as infrastructure** become
 - Compliance’s monitoring and audit readiness
 - Revenue leadership’s forecasting confidence
 
-Accenture highlights how generative AI usage is reshaping buying behaviors, including AI-assisted shopping. In its research, Accenture reports that **66% of consumers have used generative AI recently**, and **77% plan to use it for purchase decisions**—a meaningful signal that “how buyers learn and decide” is changing fast. (Accenture: https://www.accenture.com/)
+Accenture highlights how generative AI usage is reshaping buying behaviors, including AI-assisted shopping. In its research, Accenture reports that **66% of consumers have used generative AI recently**, and **77% plan to use it for purchase decisions**—a meaningful signal that “how buyers learn and decide” is changing fast. ([Accenture](https://www.accenture.com/))
 
 **The pitfall:** If AI doesn’t learn from real distribution conversations, it can end up optimizing what’s easy to measure—rather than what actually moves premium.
 
@@ -145,7 +145,7 @@ Add regulatory oversight, and adoption becomes even harder. People don’t just 
 - “How will this be used against me in performance reviews?”
 - “What happens in an audit?”
 
-Wipfli and other 2026 trend analyses emphasize the need to industrialize AI in a people-first way—moving faster without losing control. That’s especially relevant in insurance, where speed without governance is not innovation; it’s risk. (Wipfli: https://www.wipfli.com/)
+Wipfli and other 2026 trend analyses emphasize the need to industrialize AI in a people-first way—moving faster without losing control. That’s especially relevant in insurance, where speed without governance is not innovation; it’s risk. ([Wipfli](https://www.wipfli.com/))
 
 In practice, field adoption breaks down for three reasons:
 
@@ -161,7 +161,7 @@ In regulated selling, “good” is not just persuasive—it’s accurate, docum
 
 Many carriers approach broker communication as distribution marketing, not as a performance system. But broker relationships are operational: responsiveness, clarity, and consistency in complex policy explanation are what win.
 
-BCG’s framing of augmented-to-autonomous AI is instructive here: the near-term win is **augmented and assisted AI** that reduces admin burden and improves consistency—so producers spend more time in high-quality buyer interactions. (BCG: https://www.bcg.com/)
+BCG’s framing of augmented-to-autonomous AI is instructive here: the near-term win is **augmented and assisted AI** that reduces admin burden and improves consistency—so producers spend more time in high-quality buyer interactions. ([BCG](https://www.bcg.com/))
 
 **The pitfall:** When AI is introduced without a credible adoption model across captive and broker networks, it becomes “one more thing” rather than a distribution advantage.
 
