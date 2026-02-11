@@ -181,7 +181,10 @@ async function main() {
 
   if (sourceIdx !== -1 && args[sourceIdx + 1]) {
     const sourceDir = path.resolve(process.cwd(), args[sourceIdx + 1]!);
-    const tenant = path.basename(sourceDir);
+    const tenant =
+      tenantIdx !== -1 && args[tenantIdx + 1]
+        ? args[tenantIdx + 1]!
+        : path.basename(sourceDir);
     if (!fs.existsSync(sourceDir)) {
       console.error("Source dir not found:", sourceDir);
       process.exit(1);
@@ -212,7 +215,7 @@ async function main() {
     return;
   }
 
-  console.log("Usage: npm run ingest -- --source J77Output/diagpartners");
+  console.log("Usage: npm run ingest -- --source J77Output/diagpartners [--tenant Gong]");
   console.log("   or: npm run ingest -- --zip path/to/file.zip --tenant diagpartners");
   process.exit(1);
 }

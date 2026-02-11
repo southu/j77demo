@@ -8,6 +8,8 @@ const accentClasses: Record<string, string> = {
   indigo: "text-indigo-600 hover:text-indigo-700",
   blue: "text-blue-600 hover:text-blue-700",
   emerald: "text-emerald-600 hover:text-emerald-700",
+  violet: "text-violet-600 hover:text-violet-700",
+  purple: "text-purple-600 hover:text-purple-700",
 };
 
 export function TenantNav({

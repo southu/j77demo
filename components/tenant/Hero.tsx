@@ -5,6 +5,8 @@ const accentBg: Record<string, string> = {
   indigo: "bg-indigo-50 text-indigo-800",
   blue: "bg-blue-50 text-blue-800",
   emerald: "bg-emerald-50 text-emerald-800",
+  violet: "bg-violet-50 text-violet-800",
+  purple: "bg-purple-50 text-purple-800",
 };
 
 export function Hero({

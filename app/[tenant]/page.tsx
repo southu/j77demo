@@ -104,7 +104,17 @@ export default async function TenantHomePage({
           <div className="mt-8 flex gap-4">
             <Link
               href={`${base}/blog`}
-              className="rounded-lg bg-indigo-600 px-4 py-2 text-sm font-medium text-white hover:bg-indigo-700"
+              className={`rounded-lg px-4 py-2 text-sm font-medium text-white ${
+                accent === "violet"
+                  ? "bg-violet-600 hover:bg-violet-700"
+                  : accent === "purple"
+                    ? "bg-purple-600 hover:bg-purple-700"
+                    : accent === "emerald"
+                      ? "bg-emerald-600 hover:bg-emerald-700"
+                      : accent === "blue"
+                        ? "bg-blue-600 hover:bg-blue-700"
+                        : "bg-indigo-600 hover:bg-indigo-700"
+              }`}
             >
               Explore insights
             </Link>

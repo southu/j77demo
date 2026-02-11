@@ -2,7 +2,7 @@
   "displayName": "Gong",
   "logoText": "Gong",
   "tagline": "Revenue intelligence for customer-facing teams",
-  "themeAccent": "indigo",
+  "themeAccent": "violet",
   "companyUrl": "https://www.gong.io",
   "navLinks": [
     { "label": "About", "href": "/about" },

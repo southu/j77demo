@@ -14,7 +14,11 @@ export function TagChips({
       ? "bg-emerald-100 text-emerald-800 hover:bg-emerald-200"
       : accent === "blue"
         ? "bg-blue-100 text-blue-800 hover:bg-blue-200"
-        : "bg-indigo-100 text-indigo-800 hover:bg-indigo-200";
+        : accent === "violet"
+          ? "bg-violet-100 text-violet-800 hover:bg-violet-200"
+          : accent === "purple"
+            ? "bg-purple-100 text-purple-800 hover:bg-purple-200"
+            : "bg-indigo-100 text-indigo-800 hover:bg-indigo-200";
 
   if (tags.length === 0) return null;
   const base = `/${encodeURIComponent(tenant)}`;
