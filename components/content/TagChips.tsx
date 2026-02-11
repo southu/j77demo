@@ -1,5 +1,13 @@
 import Link from "next/link";
 
+const chipAccent: Record<string, string> = {
+  indigo: "bg-indigo-50 text-indigo-700 hover:bg-indigo-100",
+  blue: "bg-blue-50 text-blue-700 hover:bg-blue-100",
+  emerald: "bg-emerald-50 text-emerald-700 hover:bg-emerald-100",
+  violet: "bg-violet-50 text-violet-700 hover:bg-violet-100",
+  purple: "bg-purple-50 text-purple-700 hover:bg-purple-100",
+};
+
 export function TagChips({
   tenant,
   tags,
@@ -9,26 +17,17 @@ export function TagChips({
   tags: string[];
   accent?: string;
 }) {
-  const chipClass =
-    accent === "emerald"
-      ? "bg-emerald-100 text-emerald-800 hover:bg-emerald-200"
-      : accent === "blue"
-        ? "bg-blue-100 text-blue-800 hover:bg-blue-200"
-        : accent === "violet"
-          ? "bg-violet-100 text-violet-800 hover:bg-violet-200"
-          : accent === "purple"
-            ? "bg-purple-100 text-purple-800 hover:bg-purple-200"
-            : "bg-indigo-100 text-indigo-800 hover:bg-indigo-200";
-
   if (tags.length === 0) return null;
   const base = `/${encodeURIComponent(tenant)}`;
+  const cls = chipAccent[accent] ?? chipAccent.indigo;
+
   return (
-    <div className="flex flex-wrap gap-2">
+    <div className="flex flex-wrap gap-1.5">
       {tags.map((tag) => (
         <Link
           key={tag}
           href={`${base}/tags/${encodeURIComponent(tag)}`}
-          className={`rounded-full px-3 py-1 text-xs font-medium transition ${chipClass}`}
+          className={`rounded-md px-2 py-0.5 text-[11px] font-medium transition ${cls}`}
         >
           {tag}
         </Link>

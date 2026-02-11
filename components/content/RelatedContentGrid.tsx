@@ -12,9 +12,10 @@ export function RelatedContentGrid({
 }) {
   if (items.length === 0) return null;
   return (
-    <section className="mt-12 border-t border-stone-200 pt-8">
-      <h2 className="text-lg font-semibold text-stone-900">Related</h2>
-      <div className="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+    <section className="mt-16 border-t border-stone-100 pt-10">
+      <h2 className="text-xl font-bold tracking-tight text-stone-900">Related content</h2>
+      <p className="mt-1 text-sm text-stone-500">You might also find these useful.</p>
+      <div className="mt-6 grid gap-5 sm:grid-cols-2">
         {items.map((item) => (
           <ContentCard key={`${item.type}-${item.slug}`} tenant={tenant} item={item} accent={accent} />
         ))}
