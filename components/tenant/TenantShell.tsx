@@ -20,13 +20,14 @@ export function TenantShell({
   children: React.ReactNode;
 }) {
   const logoColor = accentText[config.themeAccent] ?? accentText.indigo;
+  const base = `/${encodeURIComponent(tenant)}`;
 
   return (
     <div className="min-h-screen bg-white">
       {/* Header */}
       <header className="sticky top-0 z-50 border-b border-stone-200/60 bg-white/90 backdrop-blur-lg">
         <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-6 py-4">
-          <Link href="." className={`text-xl font-bold tracking-tight ${logoColor}`}>
+          <Link href={base} className={`text-xl font-bold tracking-tight ${logoColor}`}>
             {config.logoText}
           </Link>
           <TenantNav tenant={tenant} config={config} />
@@ -41,9 +42,9 @@ export function TenantShell({
         <div className="mx-auto max-w-6xl px-6 py-10">
           <div className="flex flex-col gap-6 sm:flex-row sm:items-center sm:justify-between">
             <div className="flex flex-wrap gap-6 text-sm">
-              <Link href="." className="text-stone-500 hover:text-stone-800 transition-colors">Home</Link>
-              <Link href="blog" className="text-stone-500 hover:text-stone-800 transition-colors">Blog</Link>
-              <Link href="resources" className="text-stone-500 hover:text-stone-800 transition-colors">Resources</Link>
+              <Link href={base} className="text-stone-500 hover:text-stone-800 transition-colors">Home</Link>
+              <Link href={`${base}/blog`} className="text-stone-500 hover:text-stone-800 transition-colors">Blog</Link>
+              <Link href={`${base}/resources`} className="text-stone-500 hover:text-stone-800 transition-colors">Resources</Link>
             </div>
             <span className={`text-sm font-semibold ${logoColor}`}>{config.logoText}</span>
           </div>

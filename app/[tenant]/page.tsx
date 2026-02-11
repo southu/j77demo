@@ -126,10 +126,10 @@ export default async function TenantHomePage({
             ))}
           </div>
           <div className="mt-10 flex justify-center gap-4">
-            <Link href="blog" className={`rounded-full px-6 py-2.5 text-sm font-semibold text-white transition ${accentBtn}`}>
+            <Link href={`/${encodeURIComponent(tenant)}/blog`} className={`rounded-full px-6 py-2.5 text-sm font-semibold text-white transition ${accentBtn}`}>
               Explore blog
             </Link>
-            <Link href="resources" className="rounded-full border border-stone-300 bg-white px-6 py-2.5 text-sm font-semibold text-stone-700 transition hover:border-stone-400 hover:bg-stone-50">
+            <Link href={`/${encodeURIComponent(tenant)}/resources`} className="rounded-full border border-stone-300 bg-white px-6 py-2.5 text-sm font-semibold text-stone-700 transition hover:border-stone-400 hover:bg-stone-50">
               View resources
             </Link>
           </div>

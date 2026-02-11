@@ -21,27 +21,28 @@ export function TenantNav({
 }) {
   const pathname = usePathname();
   const activeColor = accentActive[config.themeAccent] ?? accentActive.indigo;
-  const tenantRoot = `/${encodeURIComponent(tenant)}`;
-  const isOnTenantHome = pathname === tenantRoot || pathname === `${tenantRoot}/`;
+  const base = `/${encodeURIComponent(tenant)}`;
 
   const mainLinks = [
-    { href: isOnTenantHome ? "." : "..", label: "Home" },
-    { href: "blog", label: "Blog" },
-    { href: "resources", label: "Resources" },
+    { href: base, label: "Home" },
+    { href: `${base}/blog`, label: "Blog" },
+    { href: `${base}/resources`, label: "Resources" },
   ];
 
-  const navLinks = [...mainLinks, ...(config.navLinks ?? [])].map((l) => ({
-    ...l,
-    href: l.href.startsWith("http") ? l.href : l.href.startsWith("/") ? l.href.slice(1) : l.href,
+  const extraLinks = (config.navLinks ?? []).map((l) => ({
+    label: l.label,
+    href: l.href.startsWith("http") ? l.href : `${base}${l.href.startsWith("/") ? l.href : `/${l.href}`}`,
   }));
+
+  const navLinks = [...mainLinks, ...extraLinks];
 
   return (
     <nav className="flex items-center gap-1">
       {navLinks.map((link) => {
         const isActive =
-          link.label === "Home"
-            ? isOnTenantHome
-            : pathname.endsWith(link.href) || pathname.includes(`/${link.href}/`);
+          link.href === base
+            ? pathname === base || pathname === `${base}/`
+            : pathname.startsWith(link.href);
         return (
           <Link
             key={link.href}
