@@ -5,6 +5,7 @@ import { loadContentBySlug, getAdjacentByDate } from "@/lib/content";
 import { loadTenantConfig } from "@/lib/tenants";
 import { relatedContent } from "@/lib/related";
 import { markdownToHtml, splitBySecondHeading } from "@/lib/markdown";
+import { getFeaturedImageUrl } from "@/lib/featured-image";
 import { MarkdownContent } from "@/components/content/MarkdownContent";
 import { TagChips } from "@/components/content/TagChips";
 import { RelatedContentGrid } from "@/components/content/RelatedContentGrid";
@@ -42,6 +43,7 @@ export default async function BlogDetailPage({
   const { prev, next } = getAdjacentByDate(tenant, "blog", slug);
   const base = `/${encodeURIComponent(tenant)}`;
   const accent = config.themeAccent ?? "indigo";
+  const featuredImageUrl = getFeaturedImageUrl(tenant, slug);
 
   return (
     <article className="animate-fade-in">
@@ -55,6 +57,16 @@ export default async function BlogDetailPage({
         <div className="mt-3">
           <TagChips tenant={tenant} tags={post.tags} accent={accent} />
         </div>
+        {featuredImageUrl && (
+          <div className="mt-6 overflow-hidden rounded-xl bg-stone-100">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src={featuredImageUrl}
+              alt=""
+              className="w-full object-cover"
+            />
+          </div>
+        )}
       </header>
       <div className="mt-8">
         <MarkdownContent html={htmlBefore} />

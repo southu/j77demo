@@ -11,10 +11,34 @@ body {
   @apply bg-stone-50 text-stone-900 antialiased;
 }
 
-/* Prose for markdown content */
+/* Prose for markdown content (headings, lists, blockquotes, etc.) */
+.prose {
+  @apply prose-headings:font-semibold prose-headings:text-stone-900;
+}
 .prose a {
   @apply text-indigo-600 hover:text-indigo-700 underline;
 }
 .prose img {
-  @apply rounded-lg;
+  @apply rounded-lg shadow-md;
+}
+.prose blockquote {
+  @apply border-l-4 border-stone-300 bg-stone-50 py-1 pl-4 italic;
+}
+.prose ul, .prose ol {
+  @apply my-4 pl-6;
+}
+.prose li {
+  @apply my-1;
+}
+.prose h2 {
+  @apply mt-10 mb-4 text-xl;
+}
+.prose h3 {
+  @apply mt-6 mb-2 text-lg;
+}
+.prose p {
+  @apply my-3 leading-relaxed;
+}
+.prose strong {
+  @apply font-semibold text-stone-900;
 }

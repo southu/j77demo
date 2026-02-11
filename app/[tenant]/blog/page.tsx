@@ -1,5 +1,5 @@
 import { discoverTenants } from "@/lib/tenants";
-import { loadAllContent, getAllTags } from "@/lib/content";
+import { loadAllContent, getAllTags, groupBlogBySeries } from "@/lib/content";
 import { loadTenantConfig } from "@/lib/tenants";
 import { BlogListClient } from "./BlogListClient";
 
@@ -16,10 +16,12 @@ export default async function BlogListPage({
   const config = loadTenantConfig(tenant);
   const { blog } = loadAllContent(tenant);
   const tags = getAllTags(tenant);
+  const { series, standalone } = groupBlogBySeries(blog);
   return (
     <BlogListClient
       tenant={tenant}
-      posts={blog}
+      seriesGroups={series}
+      standalonePosts={standalone}
       tags={tags}
       accent={config.themeAccent ?? "indigo"}
     />

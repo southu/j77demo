@@ -17,6 +17,10 @@ export type ContentItem = {
   tags: string[];
   related?: string[];
   canonicalTopic?: string;
+  /** When set, this post belongs to a series; used to group on blog list. */
+  series?: string;
+  /** 1-based order within the series. */
+  seriesOrder?: number;
   body: string;
   readingTime: number; // minutes
 };
@@ -36,6 +40,19 @@ function ensureStringArray(value: unknown): string[] {
   return [];
 }
 
+/** Infer series title and part number from blog slug (for multi-part series). */
+function inferSeriesFromSlug(slug: string): { series: string; seriesOrder: number } | null {
+  const insuranceMatch = slug.match(/^ai-revenue-shift-insurance-part-(\d)/i);
+  if (insuranceMatch) {
+    return { series: "The AI Revenue Shift in Insurance", seriesOrder: parseInt(insuranceMatch[1]!, 10) };
+  }
+  const mainMatch = slug.match(/^(?:the-)?ai-revenue-shift-part-(\d)/i);
+  if (mainMatch) {
+    return { series: "The AI Revenue Shift", seriesOrder: parseInt(mainMatch[1]!, 10) };
+  }
+  return null;
+}
+
 function loadDir(tenant: string, type: ContentType): ContentItem[] {
   const dir = path.join(DEMO_ASSETS, tenant, type);
   if (!fs.existsSync(dir)) return [];
@@ -48,6 +65,9 @@ function loadDir(tenant: string, type: ContentType): ContentItem[] {
     const { data, content } = matter(raw);
     const rt = readingTime(content);
     const tags = ensureStringArray(data.tags);
+    const seriesFromSlug = type === "blog" ? inferSeriesFromSlug(slug) : null;
+    const series = (data.series as string | undefined) ?? seriesFromSlug?.series;
+    const seriesOrder = data.seriesOrder != null ? Number(data.seriesOrder) : seriesFromSlug?.seriesOrder;
     items.push({
       slug,
       type,
@@ -58,6 +78,8 @@ function loadDir(tenant: string, type: ContentType): ContentItem[] {
       tags,
       related: Array.isArray(data.related) ? data.related.filter((x): x is string => typeof x === "string") : undefined,
       canonicalTopic: data.canonicalTopic as string | undefined,
+      series,
+      seriesOrder,
       body: content,
       readingTime: Math.max(1, Math.ceil(rt.minutes)),
     });
@@ -85,6 +107,9 @@ export function loadContentBySlug(
   const { data, content } = matter(raw);
   const rt = readingTime(content);
   const tags = ensureStringArray(data.tags);
+  const seriesFromSlug = type === "blog" ? inferSeriesFromSlug(slug) : null;
+  const series = (data.series as string | undefined) ?? seriesFromSlug?.series;
+  const seriesOrder = data.seriesOrder != null ? Number(data.seriesOrder) : seriesFromSlug?.seriesOrder;
   return {
     slug,
     type,
@@ -95,6 +120,8 @@ export function loadContentBySlug(
     tags,
     related: Array.isArray(data.related) ? data.related.filter((x): x is string => typeof x === "string") : undefined,
     canonicalTopic: data.canonicalTopic as string | undefined,
+    series,
+    seriesOrder,
     body: content,
     readingTime: Math.max(1, Math.ceil(rt.minutes)),
   };
@@ -133,3 +160,6 @@ export function getAllTags(tenant: string): string[] {
   for (const item of [...blog, ...resources]) item.tags.forEach((t) => set.add(t));
   return Array.from(set).sort();
 }
+
+export type { BlogSeriesGroup } from "./series";
+export { groupBlogBySeries } from "./series";
