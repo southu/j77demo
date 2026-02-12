@@ -30,9 +30,9 @@ This blueprint provides a practical governance model built for large, regulated 
 
 Industry research reinforces both the opportunity and the oversight imperative:
 
-- AI impacts the insurance distribution business model end-to-end and requires a clear governance vision for execution. [1]
-- AI-driven personalization and efficiency can improve distribution economics, but benefits accrue to insurers that operationalize responsibly. [2]
-- Regulators increasingly expect insurers to manage AI risk, with state-level oversight activity accelerating. [3]
+- AI impacts the insurance distribution business model end-to-end and requires a clear governance vision for execution. 
+- AI-driven personalization and efficiency can improve distribution economics, but benefits accrue to insurers that operationalize responsibly. 
+- Regulators increasingly expect insurers to manage AI risk, with state-level oversight activity accelerating. 
 
 **How to use this resource:** Use this as an executive-ready reference for designing your AI governance operating model, building a defensible audit posture, and embedding controls into day-to-day distribution workflows.
 
@@ -44,9 +44,9 @@ Industry research reinforces both the opportunity and the oversight imperative:
 In regulated insurance distribution, AI governance is not a “model risk management” project confined to data science teams. It is a **distribution risk** issue that intersects with market conduct, producer oversight, suitability/appropriateness, unfair discrimination concerns, consumer communications, recordkeeping, and third-party channel management.
 
 ### What’s changing (and why it matters for market conduct and producer oversight)
-Regulators are increasingly focused on insurer accountability for AI outcomes—not just vendor assurances or technical performance. Deloitte notes that regulators want oversight of insurers’ AI models and expect insurers to manage AI risk; state-level AI oversight is forging ahead. [3]
+Regulators are increasingly focused on insurer accountability for AI outcomes—not just vendor assurances or technical performance. Deloitte notes that regulators want oversight of insurers’ AI models and expect insurers to manage AI risk; state-level AI oversight is forging ahead. 
 
-Meanwhile, distribution is being reshaped by AI capabilities that touch multiple compliance-sensitive activities (lead scoring, next-best-action, script assistance, dynamic content, and coaching). Turner highlights that AI affects the entire business model and associated governance, requiring a clear strategic vision for execution. [1]
+Meanwhile, distribution is being reshaped by AI capabilities that touch multiple compliance-sensitive activities (lead scoring, next-best-action, script assistance, dynamic content, and coaching). Turner highlights that AI affects the entire business model and associated governance, requiring a clear strategic vision for execution. 
 
 ### Regulatory deep-dive: grounding AI governance in concrete expectations (NAIC + state activity)
 Carriers should expect AI governance scrutiny to show up through familiar exam and oversight mechanisms—market conduct exams, advertising review, producer oversight, complaint analysis, and third-party risk reviews—now with added attention to AI-enabled decisioning and communications.
@@ -57,7 +57,7 @@ To keep this blueprint practical and jurisdiction-agnostic, use the following fr
 - **State-level laws and rules (evolving):** In addition to insurance department activity, broader state privacy and AI rules can affect recording consent, data minimization, profiling, and disclosure expectations.
 - **Market conduct emphasis:** Even when the “AI” itself is not explicitly regulated, the *outcome* often is—misleading statements, inconsistent disclosures, unfair discrimination, or inadequate documentation.
 
-Deloitte’s observation that state-level AI oversight is accelerating is a practical cue: executives should plan for questions about model use, monitoring, and governance artifacts—not only technical accuracy. [3]
+Deloitte’s observation that state-level AI oversight is accelerating is a practical cue: executives should plan for questions about model use, monitoring, and governance artifacts—not only technical accuracy. 
 
 ### Core risk categories to govern (distribution lens)
 Use this as your executive risk taxonomy for AI in distribution and conversation monitoring:
@@ -391,7 +391,7 @@ Focus on operational controls where risk materializes: approved language librari
 Market conduct AI monitoring applies analytics to sales and service interactions to detect potential conduct risks—such as missing required disclosures, misleading guarantee language, or inconsistent explanation of limitations—and to document investigation and remediation.
 
 ### How does the NAIC AI Model Bulletin affect insurance AI governance?
-Where adopted or referenced, NAIC model guidance and bulletins can shape regulator expectations for documented purpose, oversight, risk controls, third-party management, and the ability to explain and evidence AI-driven outcomes. Carriers should prepare governance artifacts that demonstrate those capabilities. [3]
+Where adopted or referenced, NAIC model guidance and bulletins can shape regulator expectations for documented purpose, oversight, risk controls, third-party management, and the ability to explain and evidence AI-driven outcomes. Carriers should prepare governance artifacts that demonstrate those capabilities. 
 
 ### What artifacts should we have ready for a market conduct exam involving AI?
 For Tier 1 use cases, be prepared to produce: a use-case fact sheet, ownership and approvals, version history, monitoring rules and results, case files for flagged interactions (disposition + remediation), and clear narratives describing purpose, limitations, and guardrails.

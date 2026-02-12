@@ -59,6 +59,23 @@ body {
   @apply bg-stone-100 text-stone-800 rounded px-1.5 py-0.5 text-sm;
 }
 
+/* ── Tables ── */
+.prose table {
+  @apply w-full border-collapse text-sm my-8;
+}
+.prose thead {
+  @apply bg-stone-50;
+}
+.prose th {
+  @apply border border-stone-200 px-4 py-2.5 text-left text-xs font-bold uppercase tracking-wider text-stone-600;
+}
+.prose td {
+  @apply border border-stone-200 px-4 py-3 text-stone-700 align-top;
+}
+.prose tbody tr:hover {
+  @apply bg-stone-50/50;
+}
+
 /* ── Animations ── */
 @keyframes fade-in-up {
   from { opacity: 0; transform: translateY(12px); }

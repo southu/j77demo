@@ -31,8 +31,8 @@ This audit tool helps you pinpoint where productivity gaps originate—without d
 
 Two macro-trends make this audit timely:
 
-- **AI investment is accelerating in insurance distribution.** According to **Patra Corporation**, **67% of insurance carriers are investing in AI**, with distribution optimization highlighted as a priority to improve efficiency and customer satisfaction while increasing visibility into risk and performance drivers.([1](https://www.patracorp.com/resources/blogs/ai-insurance-transforms-operations-for-modern-distributors/))
-- **Distribution competition is intensifying.** AI is enabling 24/7 communication, more tailored outreach, and faster service—while increasing pressure from direct-to-consumer options and new distribution models.([2](https://www.heffnetwork.com/how-ai-is-reshaping-insurance-distribution-how-agencies-can-prepare-in-2026/))
+- **AI investment is accelerating in insurance distribution.** According to **Patra Corporation**, **67% of insurance carriers are investing in AI**, with distribution optimization highlighted as a priority to improve efficiency and customer satisfaction while increasing visibility into risk and performance drivers.((https://www.patracorp.com/resources/blogs/ai-insurance-transforms-operations-for-modern-distributors/))
+- **Distribution competition is intensifying.** AI is enabling 24/7 communication, more tailored outreach, and faster service—while increasing pressure from direct-to-consumer options and new distribution models.((https://www.heffnetwork.com/how-ai-is-reshaping-insurance-distribution-how-agencies-can-prepare-in-2026/))
 
 ---
 
@@ -94,7 +94,7 @@ Most enterprise teams can complete an initial pass in **a few weeks**, depending
    - 3 system changes (90–180 days)
    - 3 governance/measurement upgrades (ongoing)
 
-When you apply Revenue Intelligence to conversation-level evidence, you can move beyond anecdotes and isolate the specific moments that create (or kill) productivity—without forcing managers into manual review as the only control mechanism.([3](https://www.databricks.com/blog/navigating-impact-ai-insurance-opportunities-and-challenges))
+When you apply Revenue Intelligence to conversation-level evidence, you can move beyond anecdotes and isolate the specific moments that create (or kill) productivity—without forcing managers into manual review as the only control mechanism.((https://www.databricks.com/blog/navigating-impact-ai-insurance-opportunities-and-challenges))
 
 ---
 
@@ -102,7 +102,7 @@ When you apply Revenue Intelligence to conversation-level evidence, you can move
 Captive and broker channels often produce different “shapes” of productivity.
 
 - **Captive agents** often show **higher messaging consistency** because training and brand governance are tighter, but they may be **less adaptable** in varied buyer contexts or complex cases.
-- **Brokers** often excel in relationship-driven navigation of complex placements, but may introduce **higher variability** in messaging, qualification rigor, and documentation—especially across large networks.([1](https://www.patracorp.com/resources/blogs/ai-insurance-transforms-operations-for-modern-distributors/))
+- **Brokers** often excel in relationship-driven navigation of complex placements, but may introduce **higher variability** in messaging, qualification rigor, and documentation—especially across large networks.((https://www.patracorp.com/resources/blogs/ai-insurance-transforms-operations-for-modern-distributors/))
 
 ### Fast diagnostic: red flags by channel
 **Captive channel red flags**
@@ -209,7 +209,7 @@ Mini-scenario (anonymized): One P&C carrier found that several top-producing bro
 - Documentation of advice vs. information
 - Handling of sensitive customer data
 
-With conversation-level analysis, you can find where the message drifts in the real world—then coach to the exact moments that protect the customer and preserve the deal, without expanding manual review as your only lever.([3](https://www.databricks.com/blog/navigating-impact-ai-insurance-opportunities-and-challenges))
+With conversation-level analysis, you can find where the message drifts in the real world—then coach to the exact moments that protect the customer and preserve the deal, without expanding manual review as your only lever.((https://www.databricks.com/blog/navigating-impact-ai-insurance-opportunities-and-challenges))
 
 ---
 
@@ -277,7 +277,7 @@ Manual review can slow distribution in three ways:
 - **Manager bandwidth:** managers spend time policing rather than coaching
 - **Producer behavior:** producers over- or under-disclose due to uncertainty
 
-AI can analyze unstructured data and may improve pricing accuracy and risk selection—helping reduce adverse selection when used responsibly with appropriate governance.([4](https://pmc.ncbi.nlm.nih.gov/articles/PMC12502125/))
+AI can analyze unstructured data and may improve pricing accuracy and risk selection—helping reduce adverse selection when used responsibly with appropriate governance.((https://pmc.ncbi.nlm.nih.gov/articles/PMC12502125/))
 
 ### Audit framework: Compliance Workload Inventory
 Inventory compliance effort in four buckets.
@@ -332,7 +332,7 @@ Hidden leakage is revenue you “should have” based on activity and market opp
 5. **Adverse selection pressure**
    - Poor discovery and inconsistent positioning can attract higher-risk business and reduce portfolio quality
 
-AI’s revenue impact can exceed cost savings when it improves risk assessment, pricing, retention, and decision quality.([3](https://www.databricks.com/blog/navigating-impact-ai-insurance-opportunities-and-challenges))
+AI’s revenue impact can exceed cost savings when it improves risk assessment, pricing, retention, and decision quality.((https://www.databricks.com/blog/navigating-impact-ai-insurance-opportunities-and-challenges))
 
 ### Leakage detection: an executive-ready signal table
 - **Signal:** High submission volume, flat bind rate
@@ -355,7 +355,7 @@ AI’s revenue impact can exceed cost savings when it improves risk assessment, 
   - **Likely cause:** Misaligned expectations, disclosure gaps
   - **Where to look:** Coverage limitation explanations, documentation consistency
 
-At the macro level, McKinsey has estimated generative AI could unlock **$50–70B in insurance revenue**, with significant impact in distribution-related activities such as triage, broker management, and lead generation.([6](https://www.mckinsey.com/industries/financial-services/our-insights/ai-in-insurance-understanding-the-implications-for-investors))
+At the macro level, McKinsey has estimated generative AI could unlock **$50–70B in insurance revenue**, with significant impact in distribution-related activities such as triage, broker management, and lead generation.((https://www.mckinsey.com/industries/financial-services/our-insights/ai-in-insurance-understanding-the-implications-for-investors))
 
 ---
 

@@ -39,7 +39,7 @@ If you’re a CMO or CRO in a highly regulated enterprise, you’ve likely alrea
 
 Individually, each decision is rational. Collectively, they can create a familiar pattern: lots of activity, limited outcomes.
 
-Industry reporting points to the same theme: many enterprises struggle to realize measurable ROI from GenAI at scale, and the blockers are often governance and alignment gaps—not purely technical capability ([5]). Other analyses similarly suggest enterprise-wide AI initiatives can deliver modest ROI when best practices are missing, while governance-oriented approaches may materially improve returns ([2]).
+Industry reporting points to the same theme: many enterprises struggle to realize measurable ROI from GenAI at scale, and the blockers are often governance and alignment gaps—not purely technical capability . Other analyses similarly suggest enterprise-wide AI initiatives can deliver modest ROI when best practices are missing, while governance-oriented approaches may materially improve returns .
 
 In revenue organizations, the question usually isn’t whether AI *can* help. It’s whether the company has built the system to help—reliably, repeatably, and compliantly.
 
@@ -86,7 +86,7 @@ When AI arrives, the natural impulse is to “add” capabilities:
 - A coaching tool for one region
 - A compliance checker for another
 
-That’s how **shadow AI** forms: unmanaged use cases that escape oversight—especially in regulated sectors ([3]). It’s rarely malicious. It’s typically the fastest route to “getting something done.”
+That’s how **shadow AI** forms: unmanaged use cases that escape oversight—especially in regulated sectors . It’s rarely malicious. It’s typically the fastest route to “getting something done.”
 
 ### Why tool proliferation is uniquely damaging in regulated revenue orgs
 
@@ -127,7 +127,7 @@ If you want participation, the organization needs clarity:
 - How coaching insights are used (enablement vs. punitive measurement)
 - How exceptions work for different lines of business and jurisdictions
 
-That’s why mature AI governance guidance consistently pushes cross-functional collaboration—legal, compliance, IT/security, and business leaders aligning on goals and guardrails so teams can move quickly without creating downstream risk ([3], [4], [6]).
+That’s why mature AI governance guidance consistently pushes cross-functional collaboration—legal, compliance, IT/security, and business leaders aligning on goals and guardrails so teams can move quickly without creating downstream risk (, , ).
 
 ### A practical example: scaling enablement without triggering backlash
 
@@ -163,7 +163,7 @@ Compliant revenue growth is what happens when:
 
 When you define the shared outcome, governance stops being a brake and becomes the operating model that lets innovation scale.
 
-Best-practice governance guidance repeatedly emphasizes senior sponsorship and cross-functional governance bodies with real authority—because without that, pilots move ahead until risk teams intervene late, which fuels frustration and drives shadow AI ([1], [4], [5]).
+Best-practice governance guidance repeatedly emphasizes senior sponsorship and cross-functional governance bodies with real authority—because without that, pilots move ahead until risk teams intervene late, which fuels frustration and drives shadow AI (, , ).
 
 ---
 
@@ -183,7 +183,7 @@ Here’s what strong CMO leadership looks like in practice:
    - Reframe success away from logins and toward business outcomes: stage conversion, cycle time, ramp time, retention/cross-sell, and fewer compliance escalations.
 
 4. **Co-own a cross-functional AI governance cadence**
-   - Ensure marketing has a seat alongside Legal/Compliance, IT/Security, and Sales leadership so messaging risk and customer trust aren’t handled as an afterthought ([4], [6]).
+   - Ensure marketing has a seat alongside Legal/Compliance, IT/Security, and Sales leadership so messaging risk and customer trust aren’t handled as an afterthought (, ).
 
 5. **Insist AI shows its work**
    - Push for traceability in customer-facing workflows: what was generated, what sources were used, what was sent, and what policy governed it. That’s how you protect trust and defend decisions in regulated environments.
@@ -205,7 +205,7 @@ Governance works when it’s specific, risk-based, and reusable.
 - **Assign accountable owners** per use case (business owner + risk owner).
 - **Standardize controls**: role-based access, retention rules, audit trails, approval workflows.
 
-This proactive, pilot-driven approach reduces rework and prevents “late-stage compliance surprises”—a practice validated in governance guidance such as Databricks’ best-practice framing ([3]).
+This proactive, pilot-driven approach reduces rework and prevents “late-stage compliance surprises”—a practice validated in governance guidance such as Databricks’ best-practice framing .
 
 ### 2) Workflow design that ties AI to revenue outcomes
 
@@ -265,10 +265,10 @@ In regulated enterprises, winners won’t be the companies that buy the most AI 
 Adoption focuses on usage of tools. Operationalization focuses on embedding AI into revenue workflows with governance, ownership, and metrics tied to business outcomes.
 
 ### Why does tool proliferation create more risk in regulated industries?
-Multiple AI tools can create inconsistent policies, fragmented audit trails, and unmanaged customer-facing outputs—driving shadow AI and complicating compliance oversight ([3]).
+Multiple AI tools can create inconsistent policies, fragmented audit trails, and unmanaged customer-facing outputs—driving shadow AI and complicating compliance oversight .
 
 ### What governance structure works best for enterprise revenue AI?
-Best-practice guidance emphasizes senior-leader sponsorship and cross-functional committees (legal, compliance, IT/security, business) with real authority, so governance becomes an enabler rather than a late-stage blocker ([1], [4], [6]).
+Best-practice guidance emphasizes senior-leader sponsorship and cross-functional committees (legal, compliance, IT/security, business) with real authority, so governance becomes an enabler rather than a late-stage blocker (, , ).
 
 ### Can strong AI governance slow innovation?
-It can if controls are vague or overly bureaucratic. In practice, clear risk tiers, decision rights, and reusable approval patterns often increase speed by reducing rework and repeated approvals for similar use cases ([3]).
+It can if controls are vague or overly bureaucratic. In practice, clear risk tiers, decision rights, and reusable approval patterns often increase speed by reducing rework and repeated approvals for similar use cases .

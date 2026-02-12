@@ -74,7 +74,7 @@ When AI is introduced without a productivity thesis, it becomes additive work:
 
 The result is predictable: activity increases, but impact remains ambiguous.
 
-A commonly cited signal from industry reporting is that many organizations struggle to measure ROI from GenAI when governance and outcomes alignment are weak (Glean [3]). Whether your organization is seeing early wins or early friction, the lesson is consistent: *AI must be managed like a revenue transformation, not an innovation lab.*
+A commonly cited signal from industry reporting is that many organizations struggle to measure ROI from GenAI when governance and outcomes alignment are weak (Glean ). Whether your organization is seeing early wins or early friction, the lesson is consistent: *AI must be managed like a revenue transformation, not an innovation lab.*
 
 ---
 
@@ -128,7 +128,7 @@ This creates three issues at once:
 - **Inconsistency:** different “truths” across teams
 - **Audit weakness:** no centralized trail of how decisions were informed
 
-Best-practice governance guidance repeatedly emphasizes centralized oversight, repositories, and monitoring to reduce shadow systems (Databricks [4]; Lumenova [6]).
+Best-practice governance guidance repeatedly emphasizes centralized oversight, repositories, and monitoring to reduce shadow systems (Databricks ; Lumenova ).
 
 **Executive takeaway:** AI risk doesn’t only come from the models you approved—it often comes from the workflows people adopt when approved options feel too slow or too brittle.
 
@@ -144,7 +144,7 @@ AI can generate insights from conversations, pipeline, and performance signals. 
 
 Without clear ownership, insights become slides—interesting, but not operational.
 
-Multiple governance sources emphasize cross-functional committees and senior executive sponsorship precisely to avoid diffusion (Mirantis [1]; Syncari [2]; Diligent [5]; IBM [9]).
+Multiple governance sources emphasize cross-functional committees and senior executive sponsorship precisely to avoid diffusion (Mirantis ; Syncari ; Diligent ; IBM ).
 
 **Executive takeaway:** Revenue AI needs an executive owner and a cross-functional decision body—or it becomes disconnected analytics.
 
@@ -159,7 +159,7 @@ Regulated enterprises often measure what’s safe and available:
 
 These are not outcomes. They’re inputs.
 
-Governance best practices stress tying AI initiatives to quantifiable targets and measurable outcomes (Mirantis [1]; Glean [3]). The same standard applies to revenue: if you can’t connect the AI program to productivity and pipeline economics, the board will (correctly) treat it as discretionary spend.
+Governance best practices stress tying AI initiatives to quantifiable targets and measurable outcomes (Mirantis ; Glean ). The same standard applies to revenue: if you can’t connect the AI program to productivity and pipeline economics, the board will (correctly) treat it as discretionary spend.
 
 **Executive takeaway:** The goal isn’t “AI adoption.” The goal is *measurable rep productivity and improved revenue decisions.*
 
@@ -210,11 +210,11 @@ In regulated industries, governance should be an accelerator: a clear pathway to
 
 Best practices across governance guidance converge on several themes:
 
-1. Align governance to business objectives and measurable targets (Mirantis [1])
-2. Create cross-functional governance committees (Syncari [2]; Diligent [5]; Lumenova [6])
-3. Maintain inventories/registries and documentation to support auditability and transparency (Databricks [4]; Jack Henry [7])
-4. Use risk-tiered controls and human-in-the-loop approaches for higher-risk use cases (Databricks [4])
-5. Leverage flexible frameworks such as the **NIST AI Risk Management Framework** (Virtasant [8])
+1. Align governance to business objectives and measurable targets (Mirantis )
+2. Create cross-functional governance committees (Syncari ; Diligent ; Lumenova )
+3. Maintain inventories/registries and documentation to support auditability and transparency (Databricks ; Jack Henry )
+4. Use risk-tiered controls and human-in-the-loop approaches for higher-risk use cases (Databricks )
+5. Leverage flexible frameworks such as the **NIST AI Risk Management Framework** (Virtasant )
 
 A practical executive move: treat Revenue AI like any other regulated capability—define what is allowed, what is prohibited, what requires review, and what evidence must be retained.
 
@@ -259,12 +259,12 @@ The key wasn’t a perfect model. It was a factory mindset: a clear throughput t
 
 Regulated enterprises have more at stake—and often more to gain—because the constraints force discipline.
 
-- **Auditability and transparency aren’t optional.** Documenting AI decisions, data sources, and performance is central to building trust and reducing bias and compliance exposure (Mirantis [1]; Jack Henry [7]).
-- **Governance is becoming a standard enterprise function.** By 2027, 90% of large enterprises are expected to have dedicated AI governance teams (Syncari [2]). Whether or not the exact number holds, the direction is clear: governance maturity separates scalable programs from stalled experiments.
+- **Auditability and transparency aren’t optional.** Documenting AI decisions, data sources, and performance is central to building trust and reducing bias and compliance exposure (Mirantis ; Jack Henry ).
+- **Governance is becoming a standard enterprise function.** By 2027, 90% of large enterprises are expected to have dedicated AI governance teams (Syncari ). Whether or not the exact number holds, the direction is clear: governance maturity separates scalable programs from stalled experiments.
 - **In complex distribution models, consistency is revenue.** Brokers, agents, and inside teams all represent your brand and risk posture. When conversations are inconsistent, deals slow and exceptions rise.
 - **You can’t modernize the front line on a fragmented truth set.** Without a shared view of what buyers actually said and heard, marketing, sales, enablement, and compliance will each optimize locally—and the enterprise will underperform globally.
 
-The pragmatic case for acting now: proactive governance and clear productivity targets can reduce risk *and* improve ROI. Virtasant reports a 55% median ROI for organizations following best practices, compared with a 5.9% average ROI in broader benchmarks [8].
+The pragmatic case for acting now: proactive governance and clear productivity targets can reduce risk *and* improve ROI. Virtasant reports a 55% median ROI for organizations following best practices, compared with a 5.9% average ROI in broader benchmarks .
 
 ---
 
@@ -309,7 +309,7 @@ Pilots often operate with simplified assumptions: limited datasets, fewer stakeh
 CMOs can lead by owning message integrity, customer insight, and enablement outcomes—using governed conversation intelligence to validate positioning, reduce friction, and support consistent narratives across channels and sellers.
 
 ### What governance framework should we start with?
-A practical starting point is the NIST AI Risk Management Framework (Govern, Map, Measure, Manage), combined with a cross-functional governance committee and clear documentation standards (Virtasant [8]; Syncari [2]; Diligent [5]).
+A practical starting point is the NIST AI Risk Management Framework (Govern, Map, Measure, Manage), combined with a cross-functional governance committee and clear documentation standards (Virtasant ; Syncari ; Diligent ).
 
 ---
 

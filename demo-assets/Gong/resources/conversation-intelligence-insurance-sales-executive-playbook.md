@@ -43,7 +43,7 @@ Most enterprise carriers have mature CRM usage. But CRM is not designed to captu
 ### The core limitation of CRM in insurance distribution
 CRM captures *what happened* (stage change, meeting held, quote sent). It rarely captures *why it happened*—with the specificity needed to improve distribution performance.
 
-Research and industry perspectives on AI-driven distribution emphasize that many of the most actionable engagement signals show up in real interactions (calls, virtual meetings, in-person conversations) rather than in transactional systems—and that acting on richer signals can contribute to meaningful performance improvements ([1](https://www.turner.nl/en/financial-services/how-ai-is-revolutionizing-the-insurance-distribution-model/), [2](https://www.bcg.com/publications/2023/how-ai-is-bringing-a-revolution-to-insurance-distrubtion)). In practice, this often leaves leadership teams with incomplete visibility into the drivers of conversion and retention.
+Research and industry perspectives on AI-driven distribution emphasize that many of the most actionable engagement signals show up in real interactions (calls, virtual meetings, in-person conversations) rather than in transactional systems—and that acting on richer signals can contribute to meaningful performance improvements ((https://www.turner.nl/en/financial-services/how-ai-is-revolutionizing-the-insurance-distribution-model/), (https://www.bcg.com/publications/2023/how-ai-is-bringing-a-revolution-to-insurance-distrubtion)). In practice, this often leaves leadership teams with incomplete visibility into the drivers of conversion and retention.
 
 ### What CRM typically misses in regulated insurance sales
 In regulated insurance conversations, critical signals often include:
@@ -64,7 +64,7 @@ When these signals aren’t captured and analyzed:
 - Distribution strategy is guided by lagging indicators (production) instead of leading indicators (buyer intent and friction)
 
 ### Executive takeaway
-**CRM is necessary, but not sufficient.** For enterprise insurance leaders, conversation-level intelligence is a practical missing layer for AI-driven personalization while maintaining governance expectations ([2](https://www.bcg.com/publications/2023/how-ai-is-bringing-a-revolution-to-insurance-distrubtion), [4](https://www.deloitte.com/us/en/Industries/financial-services/articles/generative-ai-in-insurance.html)).
+**CRM is necessary, but not sufficient.** For enterprise insurance leaders, conversation-level intelligence is a practical missing layer for AI-driven personalization while maintaining governance expectations ((https://www.bcg.com/publications/2023/how-ai-is-bringing-a-revolution-to-insurance-distrubtion), (https://www.deloitte.com/us/en/Industries/financial-services/articles/generative-ai-in-insurance.html)).
 
 ---
 
@@ -103,7 +103,7 @@ AI can help surface structured elements such as:
 - Define role-based access (e.g., compliance reviewers vs. coaches vs. marketing)
 - Implement retention and deletion rules aligned to policy and regulation expectations
 
-Regulators are increasingly focused on oversight of AI use, including documentation, monitoring, and controls in regulated environments ([4](https://www.deloitte.com/us/en/Industries/financial-services/articles/generative-ai-in-insurance.html)).
+Regulators are increasingly focused on oversight of AI use, including documentation, monitoring, and controls in regulated environments ((https://www.deloitte.com/us/en/Industries/financial-services/articles/generative-ai-in-insurance.html)).
 
 6) **Activate (use insights to change outcomes)**
 - Coaching at scale based on behaviors tied to outcomes
@@ -166,7 +166,7 @@ Examples of structured adoption insights you can extract:
 - “In the independent broker channel, competitor mentions cluster around renewal weeks 2–3; price objections peak after the first proposal review.”
 - “Top-performing agents ask a consistent set of needs questions before presenting riders; others introduce riders late and trigger complexity objections.”
 
-BCG highlights that AI-driven distribution can improve cross-sell and revenue outcomes by enabling next-best actions and personalization; it cites **10% to 15% increases in cross-selling and upselling** in examples where capabilities are activated effectively ([2](https://www.bcg.com/publications/2023/how-ai-is-bringing-a-revolution-to-insurance-distrubtion)).
+BCG highlights that AI-driven distribution can improve cross-sell and revenue outcomes by enabling next-best actions and personalization; it cites **10% to 15% increases in cross-selling and upselling** in examples where capabilities are activated effectively ((https://www.bcg.com/publications/2023/how-ai-is-bringing-a-revolution-to-insurance-distrubtion)).
 
 ### Executive adoption dashboard (recommended views)
 - **Top 10 objections by product/channel**
@@ -221,7 +221,7 @@ Coaching in regulated environments should be designed so that:
 - Managers are trained on what they can and cannot reinforce
 - Audit trails exist for how coaching content is curated and approved
 
-Deloitte emphasizes that oversight and risk management for AI use is increasingly expected—especially when AI outputs influence frontline behavior and recommendations ([4](https://www.deloitte.com/us/en/Industries/financial-services/articles/generative-ai-in-insurance.html)).
+Deloitte emphasizes that oversight and risk management for AI use is increasingly expected—especially when AI outputs influence frontline behavior and recommendations ((https://www.deloitte.com/us/en/Industries/financial-services/articles/generative-ai-in-insurance.html)).
 
 ---
 
@@ -257,7 +257,7 @@ Conversation intelligence connects the two by turning what customers say into st
 - Are value statements appearing earlier?
 - Are conversion and retention indicators trending positively?
 
-Oliver Wyman notes that generative AI can help insurers hyper-personalize engagement and improve customer insights across marketing and distribution—value that depends on translating real interaction data into actions ([3](https://www.oliverwyman.com/our-expertise/insights/2023/aug/how-insurers-can-successfully-use-generative-artificial-intelligence.html)).
+Oliver Wyman notes that generative AI can help insurers hyper-personalize engagement and improve customer insights across marketing and distribution—value that depends on translating real interaction data into actions ((https://www.oliverwyman.com/our-expertise/insights/2023/aug/how-insurers-can-successfully-use-generative-artificial-intelligence.html)).
 
 ### Executive checklist: marketing-to-field integration
 - Do we share a taxonomy for objections and differentiators across marketing, sales, and compliance?
@@ -328,7 +328,7 @@ Use these questions to pressure-test readiness and expose where the operating mo
 - Which distribution motion would change fastest if you could see the top three objections *by segment* every week?
 
 ### Governance and compliance
-- If a regulator asked, “How do you monitor AI-driven insights that influence sales behavior?”, could you answer with documented controls, audit trails, and accountable owners ([4](https://www.deloitte.com/us/en/Industries/financial-services/articles/generative-ai-in-insurance.html))?
+- If a regulator asked, “How do you monitor AI-driven insights that influence sales behavior?”, could you answer with documented controls, audit trails, and accountable owners ((https://www.deloitte.com/us/en/Industries/financial-services/articles/generative-ai-in-insurance.html))?
 - Have you explicitly defined what counts as **performance insight** versus **compliance evidence**—or are teams improvising and creating avoidable risk?
 - Are consent and retention practices consistent across channels and states, or are you carrying silent exposure?
 
@@ -347,10 +347,10 @@ Use these questions to pressure-test readiness and expose where the operating mo
 ## FAQ: Conversation Intelligence in Insurance Sales
 
 ### How does conversation intelligence improve insurance compliance?
-It can help compliance teams move from primarily manual, random sampling to a more **risk-based monitoring** approach—flagging patterns that may warrant review (e.g., missing disclosures, prohibited language, unsuitable comparisons). Governance still matters: access controls, retention rules, and auditability should be designed up front ([4](https://www.deloitte.com/us/en/Industries/financial-services/articles/generative-ai-in-insurance.html)).
+It can help compliance teams move from primarily manual, random sampling to a more **risk-based monitoring** approach—flagging patterns that may warrant review (e.g., missing disclosures, prohibited language, unsuitable comparisons). Governance still matters: access controls, retention rules, and auditability should be designed up front ((https://www.deloitte.com/us/en/Industries/financial-services/articles/generative-ai-in-insurance.html)).
 
 ### What are the risks of using AI in insurance sales conversations?
-Common risks include inconsistent consent practices, unclear retention policies, over-broad internal access to recordings/transcripts, and misuse of AI outputs without oversight. Many of these risks are manageable with documented controls, monitoring, and clear boundaries between performance insight and compliance evidence ([4](https://www.deloitte.com/us/en/Industries/financial-services/articles/generative-ai-in-insurance.html)).
+Common risks include inconsistent consent practices, unclear retention policies, over-broad internal access to recordings/transcripts, and misuse of AI outputs without oversight. Many of these risks are manageable with documented controls, monitoring, and clear boundaries between performance insight and compliance evidence ((https://www.deloitte.com/us/en/Industries/financial-services/articles/generative-ai-in-insurance.html)).
 
 ### Can conversation intelligence replace CRM in insurance distribution?
 No. CRM remains the system of record for pipeline and account activity. Conversation intelligence complements CRM by capturing *why* deals move—objections, value resonance, underwriting friction, and decision dynamics—so leaders can act earlier and coach more precisely.

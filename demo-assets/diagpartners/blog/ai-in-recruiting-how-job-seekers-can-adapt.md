@@ -3,11 +3,14 @@ title: >-
   AI in Recruiting Is Changing the Rules—Here’s How Job Seekers Can Adapt (and
   Stand Out)
 slug: ai-in-recruiting-how-job-seekers-can-adapt
-date: '2026-02-11'
+date: '2026-02-12'
 description: >-
   AI in recruiting is transforming sourcing and screening. Learn how to boost
   visibility, showcase skills, and stand out—plus when to get human help.
-tags: []
+tags:
+  - AI
+  - Hiring
+  - Remote Work
 ---
 # AI in Recruiting Is Changing the Rules—Here’s How Job Seekers Can Adapt (and Stand Out)
 

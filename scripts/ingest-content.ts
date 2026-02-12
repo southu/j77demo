@@ -12,6 +12,7 @@ import { promisify } from "util";
 import matter from "gray-matter";
 import { transformSourceLinks } from "../lib/source-links";
 import { autoGenerateTags, autoDetectTopic } from "../lib/auto-tags";
+import { printValidation } from "../lib/validate-content";
 
 const streamPipeline = promisify(pipeline);
 const DEMO_ASSETS = path.join(process.cwd(), "demo-assets");
@@ -46,7 +47,10 @@ function normalizeFrontmatter(data: Record<string, unknown>, slug: string, body:
   if (canonicalTopic) out.canonicalTopic = canonicalTopic;
   if (data.related) out.related = data.related;
   // Transform raw source citations into proper markdown hyperlinks
-  const cleanedBody = transformSourceLinks(body);
+  let cleanedBody = transformSourceLinks(body);
+  // Remove orphan footnote references like [^7], \[^8], [2]
+  cleanedBody = cleanedBody.replace(/\\?\[\^?\d+\]/g, "");
+  cleanedBody = cleanedBody.replace(/\(\s*\)/g, "");
   return matter.stringify(cleanedBody, out);
 }
 
@@ -208,6 +212,8 @@ async function main() {
     }
     console.log("Loose files:");
     ingestLooseFiles(sourceDir, tenant);
+    console.log("\n── Content validation ──");
+    printValidation(tenant);
     return;
   }
 
@@ -221,6 +227,8 @@ async function main() {
     ensureDir(path.join(DEMO_ASSETS, tenant));
     ensureConfig(tenant);
     await ingestZip(zipPath, tenant);
+    console.log("\n── Content validation ──");
+    printValidation(tenant);
     return;
   }
 

@@ -29,16 +29,22 @@ export function ContentCard({
 
   return (
     <article className="group animate-fade-in flex flex-col overflow-hidden rounded-2xl border border-stone-200/80 bg-white shadow-sm transition-all duration-300 hover:shadow-lg hover:-translate-y-0.5">
-      {imageUrl && (
-        <Link href={href} className="block aspect-[16/9] overflow-hidden bg-stone-100">
-          {/* eslint-disable-next-line @next/next/no-img-element */}
+      <Link href={href} className="block aspect-[16/9] overflow-hidden bg-gradient-to-br from-stone-100 to-stone-200">
+        {imageUrl ? (
+          // eslint-disable-next-line @next/next/no-img-element
           <img
             src={imageUrl}
             alt=""
             className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
           />
-        </Link>
-      )}
+        ) : (
+          <div className="flex h-full w-full items-center justify-center">
+            <span className={`text-3xl font-bold opacity-20 ${labelClass}`}>
+              {label}
+            </span>
+          </div>
+        )}
+      </Link>
       <div className="flex flex-1 flex-col p-5">
         <div className="flex items-center gap-2">
           <span className={`inline-flex items-center rounded-full px-2.5 py-0.5 text-[11px] font-semibold uppercase tracking-wider ${labelClass}`}>
