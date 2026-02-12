@@ -4,12 +4,18 @@ title: >-
   Enablement Add-On)
 slug: >-
   ai-revenue-shift-insurance-part-3-conversation-intelligence-distribution-infrastructure
-date: '2026-02-11'
+date: '2026-02-12'
 description: >-
   Part 3 of 5: Learn how conversation intelligence turns insurance sales
   interactions into strategic data—improving consistency, coaching, and
   compliant growth.
-tags: []
+tags:
+  - AI
+  - Revenue Intelligence
+  - Insurance
+  - Governance
+  - Conversation Intelligence
+canonicalTopic: AI in Insurance Distribution
 ---
 # Insurance Conversation Intelligence: The Distribution Infrastructure CMOs Need (Not an Enablement Add‑On)
 

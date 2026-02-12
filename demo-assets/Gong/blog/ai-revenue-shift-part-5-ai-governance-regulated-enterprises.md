@@ -3,12 +3,18 @@ title: >-
   The AI Revenue Shift (Part 5): Governance That Lets Revenue AI Scale Without
   Becoming a Compliance Liability
 slug: ai-revenue-shift-part-5-ai-governance-regulated-enterprises
-date: '2026-02-11'
+date: '2026-02-12'
 description: >-
   A board-level playbook for AI governance in regulated revenue
   orgs—transparency, auditability, oversight, and brand protection while scaling
   automation.
-tags: []
+tags:
+  - AI
+  - Revenue Intelligence
+  - Insurance
+  - Sales Productivity
+  - Governance
+canonicalTopic: AI in Insurance Distribution
 ---
 # AI Governance: A Playbook for Scaling Revenue AI Without Compliance Risk (Part 5)
 

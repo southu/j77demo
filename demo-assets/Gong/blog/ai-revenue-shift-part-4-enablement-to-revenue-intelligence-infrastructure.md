@@ -3,12 +3,18 @@ title: >-
   The AI Revenue Shift (Part 4): From Sales Enablement Tools to Revenue
   Intelligence Infrastructure
 slug: ai-revenue-shift-part-4-enablement-to-revenue-intelligence-infrastructure
-date: '2026-02-11'
+date: '2026-02-12'
 description: >-
   Part 4: Why regulated enterprises must evolve from enablement tools to revenue
   intelligence infrastructure—linking conversation data, governance, and
   forecast accuracy.
-tags: []
+tags:
+  - AI
+  - Revenue Intelligence
+  - Insurance
+  - Sales Productivity
+  - Governance
+canonicalTopic: AI Governance
 ---
 # The AI Revenue Shift: A CMO’s Playbook for Enterprise Sales Productivity (Part 4)
 

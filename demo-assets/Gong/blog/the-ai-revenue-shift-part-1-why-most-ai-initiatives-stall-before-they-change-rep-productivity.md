@@ -4,12 +4,18 @@ title: >-
   1) — Why Most AI Initiatives Stall Before They Change Rep Productivity
 slug: >-
   the-ai-revenue-shift-part-1-why-most-ai-initiatives-stall-before-they-change-rep-productivity
-date: '2026-02-11'
+date: '2026-02-12'
 description: >-
   Part 1 of a 5-part series for CMOs/CROs: diagnose why AI stalls in regulated
   enterprises—and set a productivity thesis that drives measurable revenue
   impact.
-tags: []
+tags:
+  - AI
+  - Revenue Intelligence
+  - Insurance
+  - Sales Productivity
+  - Governance
+canonicalTopic: AI in Insurance Distribution
 ---
 # The AI Revenue Shift: A CMO’s Playbook for Enterprise Sales Productivity (Part 1)
 ## Why most enterprise AI initiatives stall before they change rep productivity

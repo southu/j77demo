@@ -11,6 +11,7 @@ import { pipeline } from "stream";
 import { promisify } from "util";
 import matter from "gray-matter";
 import { transformSourceLinks } from "../lib/source-links";
+import { autoGenerateTags, autoDetectTopic } from "../lib/auto-tags";
 
 const streamPipeline = promisify(pipeline);
 const DEMO_ASSETS = path.join(process.cwd(), "demo-assets");
@@ -34,10 +35,15 @@ function normalizeFrontmatter(data: Record<string, unknown>, slug: string, body:
   const kind = ((data.kind as string) || "blog").toLowerCase();
   const type = kind === "resource" ? "resource" : "blog";
   const date = parseDate(data.date ?? data.generated);
-  const tags = Array.isArray(data.tags) ? data.tags.filter((t): t is string => typeof t === "string") : [];
+  let tags = Array.isArray(data.tags) ? data.tags.filter((t): t is string => typeof t === "string") : [];
+  // Auto-generate tags if empty
+  if (tags.length === 0) {
+    tags = autoGenerateTags(title, description, body);
+  }
+  const canonicalTopic = (data.canonicalTopic as string) || autoDetectTopic(title, description, body);
   const out: Record<string, unknown> = { title, slug, date, description, tags };
   if (data.author) out.author = data.author;
-  if (data.canonicalTopic) out.canonicalTopic = data.canonicalTopic;
+  if (canonicalTopic) out.canonicalTopic = canonicalTopic;
   if (data.related) out.related = data.related;
   // Transform raw source citations into proper markdown hyperlinks
   const cleanedBody = transformSourceLinks(body);

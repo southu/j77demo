@@ -3,12 +3,18 @@ title: >-
   Part 5: The CMO as Chief Revenue Intelligence Officer—Turning Insurance
   Conversations into Sustainable Distribution Advantage
 slug: ai-revenue-shift-insurance-part-5-cmo-revenue-intelligence
-date: '2026-02-11'
+date: '2026-02-12'
 description: >-
   Part 5 of 5: How insurance CMOs can own revenue intelligence—using
   conversation data to unify distribution, compliance, and forecasting across
   channels.
-tags: []
+tags:
+  - AI
+  - Revenue Intelligence
+  - Insurance
+  - Governance
+  - Conversation Intelligence
+canonicalTopic: AI in Insurance Distribution
 ---
 # The AI Revenue Shift in Insurance: A CMO’s Playbook for Distribution Performance (Part 5 of 5)
 

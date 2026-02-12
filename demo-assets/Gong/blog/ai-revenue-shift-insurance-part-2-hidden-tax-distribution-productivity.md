@@ -3,12 +3,18 @@ title: >-
   Part 2: The Hidden Tax on Insurance Distribution—Where Productivity Disappears
   in Plain Sight
 slug: ai-revenue-shift-insurance-part-2-hidden-tax-distribution-productivity
-date: '2026-02-11'
+date: '2026-02-12'
 description: >-
   Insurance CMOs: uncover the hidden productivity tax in distribution—repetitive
   education, inconsistent messaging, broker blind spots, and compliance
   bottlenecks.
-tags: []
+tags:
+  - AI
+  - Insurance
+  - Governance
+  - Conversation Intelligence
+  - Distribution
+canonicalTopic: AI in Insurance Distribution
 ---
 # Part 2: The Hidden Tax on Insurance Distribution—Where Productivity Disappears in Plain Sight
 

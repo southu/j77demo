@@ -3,11 +3,17 @@ title: >-
   The AI Revenue Shift: A CMO’s Playbook for Enterprise Sales Productivity (Part
   2) — Why Most “AI Adoption” Efforts Stall in Enterprise Revenue Teams
 slug: ai-revenue-shift-part-2-why-ai-adoption-stalls-enterprise-revenue-teams
-date: '2026-02-11'
+date: '2026-02-12'
 description: >-
   Part 2: Why enterprise “AI adoption” stalls—tool sprawl, resistance, and
   misalignment—and how regulated revenue teams build governance-led scale.
-tags: []
+tags:
+  - AI
+  - Insurance
+  - Sales Productivity
+  - Governance
+  - Enterprise
+canonicalTopic: AI Governance
 ---
 # Why AI Adoption Stalls in Enterprise Sales: A CMO’s Playbook (Part 2)
 

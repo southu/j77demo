@@ -3,11 +3,16 @@ title: >-
   The AI Revenue Shift: A CMO’s Playbook for Enterprise Sales Productivity (Part
   3) — The Enterprise Productivity Gap No One Can See
 slug: ai-revenue-shift-part-3-enterprise-productivity-gap-distributed-sales
-date: '2026-02-11'
+date: '2026-02-12'
 description: >-
   Part 3: Learn how fragmented workflows, meeting overload, and inconsistent
   messaging create measurable revenue leakage—and how AI changes the model.
-tags: []
+tags:
+  - AI
+  - Insurance
+  - Sales Productivity
+  - Governance
+  - Enterprise
 ---
 # The Enterprise Sales Productivity Gap: An AI Playbook for CMOs (Part 3)
 

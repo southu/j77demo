@@ -1,12 +1,18 @@
 ---
 title: 'The AI Revenue Shift in Insurance (Part 4): Governance Is the Growth Strategy'
 slug: ai-revenue-shift-insurance-part-4-governance-is-the-growth-strategy
-date: '2026-02-11'
+date: '2026-02-12'
 description: >-
   Part 4 explores how regulated insurers scale AI in distribution with
   auditability, compliance monitoring, and explainable oversight—without slowing
   growth.
-tags: []
+tags:
+  - AI
+  - Insurance
+  - Governance
+  - Distribution
+  - CMO Strategy
+canonicalTopic: AI in Insurance Distribution
 ---
 Meta description: AI governance for insurance distribution—built for CMOs—turns compliance into a growth advantage with audit trails, explainable AI, and scalable sales oversight.
 

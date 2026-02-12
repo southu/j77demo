@@ -3,12 +3,18 @@ title: >-
   The AI Revenue Shift in Insurance: A CMO’s Playbook for Distribution
   Performance (Part 1) — Why AI Initiatives Stall in the Field
 slug: ai-revenue-shift-insurance-part-1-why-ai-initiatives-stall
-date: '2026-02-11'
+date: '2026-02-12'
 description: >-
   Part 1 of 5: Why insurance distribution AI stalls—fragmented stacks, CRM blind
   spots, and adoption gaps across captive and broker networks in regulated
   carriers.
-tags: []
+tags:
+  - AI
+  - Insurance
+  - Governance
+  - Conversation Intelligence
+  - Distribution
+canonicalTopic: AI in Insurance Distribution
 ---
 # The AI Revenue Shift in Insurance: A CMO’s Playbook for Distribution Performance (Part 1) — Why AI Initiatives Stall in the Field
 
