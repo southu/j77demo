@@ -1,0 +1,11 @@
+{
+  "displayName": "PTG Electronics",
+  "logoText": "PTG Electronics",
+  "tagline": "End-to-end electronics manufacturing solutions to help you scale",
+  "themeAccent": "blue",
+  "companyUrl": "https://ptg-electronics.com",
+  "navLinks": [
+    { "label": "About", "href": "/about" },
+    { "label": "Contact", "href": "/contact" }
+  ]
+}

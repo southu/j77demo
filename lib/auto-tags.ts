@@ -19,6 +19,13 @@ const TAG_KEYWORDS: [string, string[]][] = [
   ["CRO Strategy", ["cro", "chief revenue", "revenue leader"]],
   ["Enablement", ["enablement", "onboarding", "coaching", "training"]],
   ["Forecasting", ["forecast", "pipeline", "deal visibility", "deal review"]],
+  ["Electronics Manufacturing", ["electronics manufacturing", "ems ", "ems partner", "contract manufacturer", "pcb assembly"]],
+  ["PCB", ["pcb", "printed circuit board", "circuit board"]],
+  ["Supply Chain", ["supply chain", "sourcing", "lead time", "component shortage"]],
+  ["Prototyping", ["prototype", "prototyping", "npi ", "new product introduction"]],
+  ["Quality", ["quality control", "quality assurance", "iso ", "iqc", "defect"]],
+  ["Manufacturing", ["manufacturing", "production", "box build", "assembly"]],
+  ["Cost Optimization", ["total cost", "cost of ownership", "tco", "cost reduction", "lowest bid"]],
 ];
 
 const TOPIC_PATTERNS: [string, string[]][] = [
@@ -27,6 +34,8 @@ const TOPIC_PATTERNS: [string, string[]][] = [
   ["AI Governance", ["governance", "compliance", "regulated"]],
   ["Conversation Intelligence", ["conversation intelligence", "conversation data"]],
   ["Hiring Strategy", ["hiring", "recruiting", "talent"]],
+  ["EMS Partner Selection", ["ems partner", "contract manufacturer", "choosing", "partner selection"]],
+  ["Electronics Manufacturing", ["pcb", "electronics manufacturing", "ems"]],
 ];
 
 function textContains(text: string, phrases: string[]): boolean {
