@@ -6,7 +6,9 @@ import { loadTenantConfig } from "@/lib/tenants";
 import { relatedContent } from "@/lib/related";
 import { markdownToHtml } from "@/lib/markdown";
 import { getFeaturedImageUrl } from "@/lib/featured-image";
+import { getAudioUrl } from "@/lib/audio-url";
 import { MarkdownContent } from "@/components/content/MarkdownContent";
+import { AudioPlayer } from "@/components/content/AudioPlayer";
 import { TagChips } from "@/components/content/TagChips";
 import { RelatedContentGrid } from "@/components/content/RelatedContentGrid";
 import { InlineRecommendationsBlock } from "@/components/content/InlineRecommendationsBlock";
@@ -38,6 +40,7 @@ export default async function ResourceDetailPage({
   const { prev, next } = getAdjacentByDate(tenant, "resources", slug);
   const accent = config.themeAccent ?? "indigo";
   const featuredImageUrl = getFeaturedImageUrl(tenant, slug);
+  const audioUrl = getAudioUrl(tenant, slug);
   const base = `/${encodeURIComponent(tenant)}`;
 
   return (
@@ -75,6 +78,8 @@ export default async function ResourceDetailPage({
           </div>
         )}
       </header>
+
+      {audioUrl && <AudioPlayer src={audioUrl} />}
 
       {relatedInsights.length > 0 && (
         <InlineRecommendationsBlock tenant={tenant} items={relatedInsights} title="Related insights" accent={accent} />

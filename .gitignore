@@ -12,6 +12,9 @@ out/
 .env*.local
 *.tsbuildinfo
 
+# Source zip archives (processed by ingest script)
+demo-assets/**/*.zip
+
 # Optional: generated seed cache (uncomment if you don't want to commit seed.json)
 # demo-assets/*/seed.json
 

@@ -21,6 +21,7 @@ export type ContentItem = {
   series?: string;
   /** 1-based order within the series. */
   seriesOrder?: number;
+  hasAudio?: boolean;
   body: string;
   readingTime: number; // minutes
 };
@@ -80,6 +81,7 @@ function loadDir(tenant: string, type: ContentType): ContentItem[] {
       canonicalTopic: data.canonicalTopic as string | undefined,
       series,
       seriesOrder,
+      hasAudio: data.hasAudio === true ? true : undefined,
       body: content,
       readingTime: Math.max(1, Math.ceil(rt.minutes)),
     });
@@ -122,6 +124,7 @@ export function loadContentBySlug(
     canonicalTopic: data.canonicalTopic as string | undefined,
     series,
     seriesOrder,
+    hasAudio: data.hasAudio === true ? true : undefined,
     body: content,
     readingTime: Math.max(1, Math.ceil(rt.minutes)),
   };

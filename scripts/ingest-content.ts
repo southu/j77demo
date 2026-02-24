@@ -21,6 +21,11 @@ const PUBLIC_DIR = path.join(process.cwd(), "public");
 
 type Kind = "blog" | "resource";
 
+/** Strip a secondary frontmatter block that some source files include right after the primary one. */
+function stripExtraFrontmatter(raw: string): string {
+  return raw.replace(/^(---\n[\s\S]*?\n---)\n---\n[\s\S]*?\n---/m, "$1");
+}
+
 function parseDate(value: unknown): string {
   if (typeof value === "string") {
     const d = new Date(value);
@@ -46,6 +51,7 @@ function normalizeFrontmatter(data: Record<string, unknown>, slug: string, body:
   if (data.author) out.author = data.author;
   if (canonicalTopic) out.canonicalTopic = canonicalTopic;
   if (data.related) out.related = data.related;
+  if (data.hasAudio) out.hasAudio = true;
   // Transform raw source citations into proper markdown hyperlinks
   let cleanedBody = transformSourceLinks(body);
   // Remove orphan footnote references like [^7], \[^8], [2]
@@ -71,11 +77,13 @@ function ensureDir(dir: string) {
 function processExtractedDir(
   extractedDir: string,
   tenant: string,
-  slugToKind: Map<string, Kind>
+  slugToKind: Map<string, Kind>,
+  slugHasAudio: Map<string, boolean> = new Map()
 ) {
   const blogDir = path.join(DEMO_ASSETS, tenant, "blog");
   const resourcesDir = path.join(DEMO_ASSETS, tenant, "resources");
   const imagesOutDir = path.join(PUBLIC_DIR, tenant, "images");
+  const audioOutDir = path.join(PUBLIC_DIR, tenant, "audio");
   ensureDir(blogDir);
   ensureDir(resourcesDir);
   ensureDir(imagesOutDir);
@@ -93,12 +101,25 @@ function processExtractedDir(
     }
   }
 
+  const audioDir = path.join(extractedDir, "audio");
+  if (fs.existsSync(audioDir)) {
+    ensureDir(audioOutDir);
+    for (const file of fs.readdirSync(audioDir)) {
+      const srcPath = path.join(audioDir, file);
+      if (fs.statSync(srcPath).isFile()) {
+        fs.copyFileSync(srcPath, path.join(audioOutDir, file));
+        console.log(`  audio: ${file}`);
+      }
+    }
+  }
+
   for (const file of markdownFiles) {
     const slug = path.basename(file, ".md");
     const kind = slugToKind.get(slug) ?? "blog";
+    const hasAudio = slugHasAudio.get(slug) ?? fs.existsSync(path.join(audioDir, `${slug}.mp3`));
     const typeDir = kind === "resource" ? resourcesDir : blogDir;
     const fullPath = path.join(markdownDir, file);
-    const raw = fs.readFileSync(fullPath, "utf-8");
+    const raw = stripExtraFrontmatter(fs.readFileSync(fullPath, "utf-8"));
     const { data, content } = matter(raw);
     let bodyContent = content;
     if (fs.existsSync(imagesDir)) {
@@ -107,7 +128,7 @@ function processExtractedDir(
         bodyContent = bodyContent.replace(new RegExp(`images/${img.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}`, "g"), publicUrl);
       }
     }
-    const normalized = normalizeFrontmatter({ ...data, kind }, slug, bodyContent);
+    const normalized = normalizeFrontmatter({ ...data, kind, hasAudio }, slug, bodyContent);
     fs.writeFileSync(path.join(typeDir, `${slug}.md`), normalized, "utf-8");
     console.log(`  ${kind}: ${slug}.md`);
   }
@@ -133,13 +154,15 @@ async function ingestZip(zipPath: string, tenant: string) {
     await unzipToDir(zipPath, tmpDir);
     const navPath = path.join(tmpDir, "nav.json");
     const slugToKind = new Map<string, Kind>();
+    const slugHasAudio = new Map<string, boolean>();
     if (fs.existsSync(navPath)) {
-      const nav = JSON.parse(fs.readFileSync(navPath, "utf-8")) as Array<{ slug: string; kind?: string }>;
+      const nav = JSON.parse(fs.readFileSync(navPath, "utf-8")) as Array<{ slug: string; kind?: string; hasAudio?: boolean }>;
       for (const entry of nav) {
         slugToKind.set(entry.slug, (entry.kind === "resource" ? "resource" : "blog") as Kind);
+        if (entry.hasAudio) slugHasAudio.set(entry.slug, true);
       }
     }
-    processExtractedDir(tmpDir, tenant, slugToKind);
+    processExtractedDir(tmpDir, tenant, slugToKind, slugHasAudio);
   } finally {
     if (fs.existsSync(tmpDir)) fs.rmSync(tmpDir, { recursive: true });
   }
@@ -163,7 +186,7 @@ function ingestLooseFiles(sourceDir: string, tenant: string) {
   for (const fullPath of allMdPaths) {
     if (!fullPath.endsWith(".md")) continue;
     const slug = path.basename(fullPath, ".md");
-    const raw = fs.readFileSync(fullPath, "utf-8");
+    const raw = stripExtraFrontmatter(fs.readFileSync(fullPath, "utf-8"));
     const { data, content } = matter(raw);
     const kind = ((data.kind as string) || "blog").toLowerCase() as Kind;
     const typeDir = kind === "resource" ? resourcesDir : blogDir;
@@ -183,6 +206,19 @@ function ingestLooseFiles(sourceDir: string, tenant: string) {
     const name = path.basename(src);
     fs.copyFileSync(src, path.join(imagesOutDir, name));
     console.log(`  image: ${name}`);
+  }
+
+  const audioDir = path.join(sourceDir, "audio");
+  if (fs.existsSync(audioDir)) {
+    const audioOutDir = path.join(PUBLIC_DIR, tenant, "audio");
+    ensureDir(audioOutDir);
+    for (const file of fs.readdirSync(audioDir)) {
+      const srcPath = path.join(audioDir, file);
+      if (fs.statSync(srcPath).isFile()) {
+        fs.copyFileSync(srcPath, path.join(audioOutDir, file));
+        console.log(`  audio: ${file}`);
+      }
+    }
   }
 }
 
